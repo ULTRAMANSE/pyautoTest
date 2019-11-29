@@ -149,7 +149,7 @@ def browser():
         chrome_options.add_argument('--headless')
         chrome_options.add_argument('--disable-gpu')
         chrome_options.add_argument("user-agent='Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108-1 Safari/537.36'")
-        driver = webdriver.Chrome(chrome_options=option,executable_path="/opt/google/chrome/chromedriver)
+        driver = webdriver.Chrome(chrome_options=option,executable_path="/opt/google/chrome/chromedriver")
         driver.set_window_size(1920, 1080)
 
     elif driver_type == "firefox":
